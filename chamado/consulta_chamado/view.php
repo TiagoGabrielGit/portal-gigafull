@@ -24,12 +24,12 @@ if (empty($atendente['atendente'])) {
 $id_usuario = $_SESSION['id'];
 
 $sql_captura_id_pessoa =
-    "SELECT
-u.pessoa_id as pessoaID
+"SELECT
+pu.pessoa_id as pessoaID
 FROM
-usuarios as u
+portal_user as pu
 WHERE
-id = '$id_usuario'";
+pu.id = '$id_usuario'";
 
 $result_cap_pessoa = mysqli_query($mysqli, $sql_captura_id_pessoa);
 $pessoaID = mysqli_fetch_assoc($result_cap_pessoa);
