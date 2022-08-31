@@ -22,13 +22,15 @@ require "../includes/menu.php";
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="heading1-0">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-0" aria-expanded="false" aria-controls="collapse1-0">
-                                        Versão 1.0 - XX/07/2022
+                                        Versão 1.0 - 30/08/2022
                                     </button>
                                 </h2>
                                 <div id="collapse1-0" class="accordion-collapse collapse" aria-labelledby="heading1-0" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <strong>Novas funcionalidades</strong><br>
-                                        1. Lançada versão 1 onde permite abrir chamado e visualizar de forma macro;<br>
+                                        1. Abertura de chamados;<br>
+                                        2. Visualização de chamados;<br>
+                                        3. Relato em chamados;<br>
 
                                         <br><strong>Melhorias</strong><br>
                                         1. ;<br>
@@ -46,9 +48,10 @@ require "../includes/menu.php";
                                         7. Criado a tabela portal_user_empresa;<br>
 
                                         <br><strong>Previsto para próximas atualizações</strong><br>
-                                        1. Poder relatar no chamado;<br>
-                                        2. Ver os relatos do chamado;<br>
-                                        3. Trocar senha do usuário;<br>
+                                        1. Trocar senha do usuário;<br>
+                                        2. Anexos;<br>
+                                        3. Filtros de chamados;<br>
+                                        4. Relatório de chamados;<br>
 
                                     </div>
                                 </div>

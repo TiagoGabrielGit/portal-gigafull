@@ -6,7 +6,7 @@
     $("#btnSalvar").click(function() {
         var dados = $("#abrirChamado").serialize();
 
-        $.post("/chamado/abrir_chamado/processa/add.php", dados, function(retorna) {
+        $.post("/chamado/consulta_chamado/processa/add.php", dados, function(retorna) {
             $("#msg").slideDown('slow').html(retorna);
 
             //Limpar os campos
